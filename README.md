@@ -26,17 +26,31 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead.
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+Document object model > it allows JS to modify HTML elements through an abstracted version of 
+	an HTML page/site.
 
 2. What is an event?
 
+    An event is an instance of an action taking place. Could be as simple as a click, or could be
+	when the entire page is loaded.
+
 3. What is an event listener?
+
+   An event listener looks for an event, possibly an event on a specific part of the DOM, and 
+   then executes a function.
 
 4. Why would we convert a NodeList into an Array?
 
+  So you can use array functions to manipulate the data in a node list.
+
 5. What is a component?
+
+     A component is HTML, CSS, and JavaScript brought together for reuse in a website or
+     application.Basically, we make a modular piece out of mixing these three  for reusing
+     as when needed.
 
 ### Git Set up
 
@@ -51,7 +65,7 @@ Your finished project must include all of the following requirements:
 
 * [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component.
+* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
 
 * [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
